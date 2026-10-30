@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vasto Lorde Ichigo - Full Character Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="canvas-container"></div>
+
+    <div id="ui-overlay">
+      <div class="title-badge">Bleach 3D Procedural Engine</div>
+      <h1>Vasto Lorde Ichigo</h1>
+      <p class="subtitle">
+        Phase 2: <span class="tech-tag">Full Character Sculpt</span>.<br />
+        Bone, muscle, torn cloth, and a living orange mane.
+      </p>
+    </div>
+
+    <div id="bottom-controls">
+    <div id="camera-presets">
+      <button class="preset-btn active" data-preset="bodyFront">Full Body</button>
+      <button class="preset-btn" data-preset="bodyQuarter">3/4 Body</button>
+      <button class="preset-btn" data-preset="bodySide">Side Body</button>
+      <button class="preset-btn" data-preset="bodyBack">Back Body</button>
+      <button class="preset-btn" data-preset="torso">Torso</button>
+      <button class="preset-btn" data-preset="front">Face</button>
+      <button class="preset-btn" data-preset="threeQuarter">3/4 Face</button>
+      <button class="preset-btn" data-preset="profile">Face Profile</button>
+      <button class="preset-btn" data-preset="mane">Hair &amp; Mane</button>
+      <button class="preset-btn" data-preset="rear">Rear Hair</button>
+    </div>
+
+    <div id="aura-options" aria-label="Aura effects">
+      <span>Energy effects</span>
+      <button class="aura-btn" id="character-aura" aria-pressed="false">Character Aura</button>
+      <button class="aura-btn" id="katana-aura" aria-pressed="false">Katana Aura</button>
+    </div>
+    </div>
+    <div id="stats-panel">
+      <span>Pure Procedural Math • Zero External 3D Models</span>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

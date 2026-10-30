@@ -1,0 +1,12 @@
+node_modules/
+dist/
+backups/
+review/
+.claude/
+.codex/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
